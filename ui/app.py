@@ -77,7 +77,7 @@ if mode == "Single file":
 else:
 
     zip_file = st.file_uploader(
-        "Upload a ZIP containing ChatGPT exports",
+        "Upload a ZIP containing multiple conversation.json files",
         type="zip"
     )
 
