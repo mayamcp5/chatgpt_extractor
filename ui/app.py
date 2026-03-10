@@ -13,6 +13,13 @@ from parsing.load_export import load_conversations
 from parsing.flatten_tree import flatten_conversation
 from processing.normalize import normalize_messages
 
+
+st.set_page_config(
+    page_title="ChatGPT to CSV",
+    page_icon="🗨️",
+    layout="centered"
+)
+
 st.title("ChatGPT Export → CSV Converter")
 
 # -----------------------------
