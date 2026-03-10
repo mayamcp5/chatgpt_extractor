@@ -25,7 +25,7 @@ st.title("ChatGPT Export → CSV Converter")
 # -----------------------------
 # Sidebar
 # -----------------------------
-st.sidebar.header("Output Format")
+st.sidebar.header("Output Format <3")
 
 st.sidebar.markdown(
 """
