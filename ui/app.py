@@ -66,7 +66,7 @@ uploaded_files = []
 if mode == "Single file":
 
     uploaded_file = st.file_uploader(
-        "Upload a ChatGPT export JSON file",
+        "Upload a ChatGPT export conversations.JSON file",
         type="json"
     )
 
