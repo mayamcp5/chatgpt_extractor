@@ -19,7 +19,7 @@ def normalize_messages(messages):
         # Human-readable time
         if timestamp:
             dt = datetime.fromtimestamp(timestamp)
-            m["create_time_readable"] = dt.isoformat()
+            m["create_time_readable"] = dt.strftime("%Y-%m-%d %I:%M %p")
             m["hour_of_day"] = dt.hour
         else:
             m["create_time_readable"] = None
